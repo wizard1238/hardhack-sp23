@@ -11,7 +11,10 @@ import SwiftUI
 struct hardhack_sp23_postureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            NavigationView {
+                IntroView()
+            }
         }
     }
 }

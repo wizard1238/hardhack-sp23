@@ -20,7 +20,7 @@ class UIPreviewView: UIView {
 }
 
 struct PreviewView: UIViewRepresentable {
-    @Binding var session: AVCaptureSession
+    var session: AVCaptureSession
     
     func makeUIView(context: Context) -> some UIView {
         let previewView:UIPreviewView = UIPreviewView()
@@ -29,7 +29,8 @@ struct PreviewView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIViewType, context: Context) {
-        let uiView as
-        uiView.videoPreviewLayer.session = self.session
+        if let uiView = uiView as? UIPreviewView {
+            uiView.videoPreviewLayer.session = self.session
+        }
     }
 }

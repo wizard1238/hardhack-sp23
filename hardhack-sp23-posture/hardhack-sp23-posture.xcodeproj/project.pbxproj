@@ -15,6 +15,9 @@
 		3FA84C7629EB53D7003C62A4 /* hardhack_sp23_postureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84C7529EB53D7003C62A4 /* hardhack_sp23_postureUITests.swift */; };
 		3FA84C7829EB53D7003C62A4 /* hardhack_sp23_postureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84C7729EB53D7003C62A4 /* hardhack_sp23_postureUITestsLaunchTests.swift */; };
 		3FA84C8829EB6444003C62A4 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84C8729EB6444003C62A4 /* PreviewView.swift */; };
+		3FA84C8A29EB6CE9003C62A4 /* VisionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84C8929EB6CE9003C62A4 /* VisionController.swift */; };
+		3FA84C8E29EBA6B8003C62A4 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA84C8D29EBA6B8003C62A4 /* IntroView.swift */; };
+		3FFADD4529EBD945009050DA /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFADD4429EBD945009050DA /* SuccessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3FA84C7729EB53D7003C62A4 /* hardhack_sp23_postureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hardhack_sp23_postureUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FA84C8429EB55AD003C62A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3FA84C8729EB6444003C62A4 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		3FA84C8929EB6CE9003C62A4 /* VisionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionController.swift; sourceTree = "<group>"; };
+		3FA84C8D29EBA6B8003C62A4 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		3FFADD4429EBD945009050DA /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		3FA84C4E29EB53D6003C62A4 = {
 			isa = PBXGroup;
 			children = (
+				3FFADD4429EBD945009050DA /* SuccessView.swift */,
 				3FA84C5929EB53D6003C62A4 /* hardhack-sp23-posture */,
 				3FA84C6A29EB53D7003C62A4 /* hardhack-sp23-postureTests */,
 				3FA84C7429EB53D7003C62A4 /* hardhack-sp23-postureUITests */,
@@ -103,6 +110,8 @@
 				3FA84C5E29EB53D6003C62A4 /* Assets.xcassets */,
 				3FA84C6029EB53D6003C62A4 /* Preview Content */,
 				3FA84C8729EB6444003C62A4 /* PreviewView.swift */,
+				3FA84C8929EB6CE9003C62A4 /* VisionController.swift */,
+				3FA84C8D29EBA6B8003C62A4 /* IntroView.swift */,
 			);
 			path = "hardhack-sp23-posture";
 			sourceTree = "<group>";
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA84C5D29EB53D6003C62A4 /* ContentView.swift in Sources */,
+				3FA84C8A29EB6CE9003C62A4 /* VisionController.swift in Sources */,
 				3FA84C5B29EB53D6003C62A4 /* hardhack_sp23_postureApp.swift in Sources */,
 				3FA84C8829EB6444003C62A4 /* PreviewView.swift in Sources */,
+				3FFADD4529EBD945009050DA /* SuccessView.swift in Sources */,
+				3FA84C8E29EBA6B8003C62A4 /* IntroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +442,6 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the cameras to detect your posture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,7 +475,6 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the cameras to detect your posture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
